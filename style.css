@@ -1,0 +1,69 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  width: 100%;
+}
+
+.welcome-info {
+  width: 100%;
+  background-color: #b9e1e1;
+  border-top: 1px solid #b9e1e1;
+  border-bottom: 1px solid #b9e1e1;
+}
+
+.photo {
+  margin-top: 5%;
+  width: 300px;
+  height: 300px;
+  background-image: url(./img/myphoto.jpg);
+  background-size: cover;
+  border-radius: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fio {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2em;
+  margin-top: 1%;
+  color: white;
+}
+
+.welcome-text {
+  margin-top: 4%;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.5em;
+}
+
+.first-line {
+  border: 0;
+  background-image: -webkit-gradient(linear, right top, left top, from(#ffffff00), color-stop(#0c0c0cbf), to(#ffffff00));
+  background-image: linear-gradient(to left, #ffffff00, #0c0c0cbf, #ffffff00);
+  height: 1px;
+}
+
+.second-line {
+  margin-top: 4%;
+  height: 2px;
+  border: 0;
+  background-image: -webkit-gradient(linear, right top, left top, from(#ffffff00), color-stop(#0c0c0cbf), to(#ffffff00));
+  background-image: linear-gradient(to left, #ffffff00, #0c0c0cbf, #ffffff00);
+}
+
+.about-me {
+  margin-top: 4%;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-about-me {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
